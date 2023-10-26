@@ -86,6 +86,63 @@ body {
     height: 100%;
 }
 
+.select__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-title {
+    color: #12100c;
+    font-family: Roboto;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.72px;
+    margin: 0;
+}
+
+.select-text {
+    color: #999795;
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 63.72px;
+    text-decoration-line: strikethrough;
+    margin: 0;
+}
+
+.select-subtitle {
+    color: #12100c;
+    font-family: Roboto;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.72px;
+    margin: 0;
+}
+
+/* ---media---1120---media---*/
+
+@media screen and (max-width: 1120px) {
+    /* +++++++++++++section-selct+++++++++++ */
+
+    .select-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .select-text {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .select-subtitle {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+/* ---960--- */
+
 @media screen and (max-width: 960px) {
     .hero__content {
         flex-direction: column;
@@ -93,13 +150,38 @@ body {
     }
 }
 
+/* --880--- */
+
 @media screen and (max-width: 880px) {
     .header-nav {
         display: none;
     }
 }
 
+/* ---790---*/
+
+@media screen and (max-width: 790px) {
+    /* +++++++++++++section-selct+++++++++++ */
+
+    .select-title {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .select-text {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .select-subtitle {
+        font-size: 25px;
+        line-height: 25px;
+    }
+}
+
+/* ---450---*/
+
 @media screen and (max-width: 450px) {
+    /* +++++++++++++section-hero+++++++++++ */
+
     .hero-title {
         font-size: 64px;
         line-height: 70px;
@@ -107,5 +189,19 @@ body {
     .hero-text {
         font-size: 16px;
         margin: 20px 0;
+    }
+    /* +++++++++++++section-selct+++++++++++ */
+
+    .select-title {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .select-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .select-subtitle {
+        font-size: 15px;
+        line-height: 20px;
     }
 }
