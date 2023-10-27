@@ -135,7 +135,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 160px 0 0 0;
+    margin: 160px 0 160px 0;
     gap: 60px;
 }
 
@@ -193,6 +193,38 @@ body {
     max-width: 700px;
 }
 
+.think-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ____________first_____section_______ */
+
+.firs__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 177px 0 0 0;
+}
+
+.firs-title {
+    color: #12100c;
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 71.82px;
+}
+
+.first-img {
+    max-width: 1000px;
+}
+
+.first-img img {
+    max-width: 100%;
+    height: 100%;
+}
+
 /* ---media---1120---media---*/
 
 @media screen and (max-width: 1120px) {
@@ -245,6 +277,11 @@ body {
     .header-nav {
         display: none;
     }
+
+    .firs-title {
+        font-size: 35px;
+        text-align: center;
+    }
 }
 
 /* ---790---*/
@@ -292,5 +329,9 @@ body {
     .select-subtitle {
         font-size: 15px;
         line-height: 20px;
+    }
+
+    .firs-title {
+        font-size: 25px;
     }
 }
