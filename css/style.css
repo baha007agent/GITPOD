@@ -10,6 +10,8 @@ body {
     padding: 0 15px;
 }
 
+/* ____________header______________ */
+
 .header__content {
     display: flex;
     justify-content: space-between;
@@ -40,6 +42,8 @@ body {
     background: #12100c;
     border: none;
 }
+
+/* ____________hero_____section_______ */
 
 .hero__content {
     display: flex;
@@ -86,10 +90,13 @@ body {
     height: 100%;
 }
 
+/* ____________select_____section_______ */
+
 .select__content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 0 161px 0;
 }
 
 .select-title {
@@ -122,10 +129,74 @@ body {
     margin: 0;
 }
 
+/* ____________think_____section_______ */
+
+.think__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 160px 0 0 0;
+    gap: 60px;
+}
+
+.think-title {
+    color: #12100c;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+}
+
+.think-text {
+    color: rgba(18, 16, 12, 0.7);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.92px;
+    max-width: 648px;
+}
+
+.think-btns {
+    padding: 135px 0 0 0;
+    display: flex;
+    gap: 16px;
+}
+
+.think-btn1 {
+    color: #12100c;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 10.5px;
+    background: #ffae33;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    padding: 7px 18px;
+    border: none;
+}
+
+.think-btn2 {
+    color: #12100c;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 10.5px;
+    background: #ffb0ae;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    padding: 7px 18px;
+    border: none;
+}
+
+.think-img {
+    max-width: 700px;
+}
+
 /* ---media---1120---media---*/
 
 @media screen and (max-width: 1120px) {
-    /* +++++++++++++section-selct+++++++++++ */
+    /* +++++++++++++selct+++++++++++ */
 
     .select-title {
         font-size: 35px;
@@ -148,6 +219,24 @@ body {
         flex-direction: column;
         gap: 20px;
     }
+    /* +++++++++++++selct+++++++++++ */
+
+    .think__content {
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    .think-title {
+        text-align: center;
+        font-size: 30px;
+    }
+    .think-text {
+        text-align: center;
+        font-size: 25px;
+    }
+    .think-btns {
+        justify-content: center;
+    }
 }
 
 /* --880--- */
@@ -161,7 +250,7 @@ body {
 /* ---790---*/
 
 @media screen and (max-width: 790px) {
-    /* +++++++++++++section-selct+++++++++++ */
+    /* ++++++++++++selct+++++++++++ */
 
     .select-title {
         font-size: 25px;
@@ -180,7 +269,7 @@ body {
 /* ---450---*/
 
 @media screen and (max-width: 450px) {
-    /* +++++++++++++section-hero+++++++++++ */
+    /* +++++++++++++hero+++++++++++ */
 
     .hero-title {
         font-size: 64px;
@@ -190,7 +279,7 @@ body {
         font-size: 16px;
         margin: 20px 0;
     }
-    /* +++++++++++++section-selct+++++++++++ */
+    /* +++++++++++++select+++++++++++ */
 
     .select-title {
         font-size: 15px;
