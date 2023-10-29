@@ -301,6 +301,212 @@ body {
     max-width: 90px;
 }
 
+.started__content {
+    display: flex;
+    gap: 26px;
+}
+
+.starded-title {
+    color: #12100c;
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 71.82px;
+    text-align: center;
+}
+
+.starded-block1 {
+    max-width: 642px;
+}
+
+.starded-contect-subtitle {
+    color: #12100c;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.starded-text {
+    color: rgba(18, 16, 12, 0.7);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.92px;
+}
+
+.starded-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.starded-btn1 {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 12px;
+    background: #fc6d26;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.starded-btn2 {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 12px;
+    background: #000;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.starded-btn3 {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 12px;
+    background: #2684ff;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.starde-text2 {
+    color: rgba(18, 16, 12, 0.7);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.92px;
+}
+
+.stardee-gitpod {
+    color: rgba(18, 16, 12, 0.7);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.92px;
+    border-radius: 12px;
+    background: #ffe4bc;
+    padding: 1px 16px;
+}
+
+.starded-block2 {
+    min-width: 642px;
+}
+
+.stardet2-title {
+    color: #12100c;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.stardet2-text {
+    color: rgba(18, 16, 12, 0.7);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31.92px;
+}
+
+.stardet-subtitleblock {
+    display: flex;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+    margin: 160px 0 83px 0;
+}
+
+.nov-link {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.footer-title {
+    color: #12100c;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19.5px;
+    margin: 0 0 7px 0;
+}
+
+.nov-link a {
+    color: rgba(18, 16, 12, 0.7);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-decoration: none;
+    gap: 7px;
+}
+
+.footer-kg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 46px 0;
+}
+
+.footer-end {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-text {
+    color: rgba(18, 16, 12, 0.7);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.footer-end-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-this {
+    color: rgba(18, 16, 12, 0.59);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.footer-nav {
+    color: rgba(18, 16, 12, 0.7);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
 /* ---media---1120---media---*/
 
 @media screen and (max-width: 1120px) {
@@ -345,6 +551,14 @@ body {
     .think-btns {
         justify-content: center;
     }
+
+    .used-title {
+        font-size: 40px;
+    }
+    .started__content {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* --880--- */
@@ -380,6 +594,10 @@ body {
     .used-title {
         font-size: 35px;
     }
+    .used__aside {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* ---450---*/
@@ -413,7 +631,7 @@ body {
     .firs-title {
         font-size: 25px;
     }
-    .gerd {
+    .footer__content {
         display: flex;
         flex-direction: column;
     }
